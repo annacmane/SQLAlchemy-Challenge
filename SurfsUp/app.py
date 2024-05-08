@@ -62,11 +62,11 @@ def welcome():
     return(
         f"Welcome to the Climate Analysis of Hawaii API!<br/>"
         f"In order to access the information, you will need to copy the route you would like to travel on and paste it at the end of the URL in your browser<br>"
-        f"/Available Routes:<br/>"
+        f"Available Routes:<br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/start(enter as YYYY-MM-DD)<br/>"
+        f"/api/v1.0/start (enter as YYYY-MM-DD)<br/>"
         f"/api/v1.0/start/end (enter as YYYY-MM-DD)"
     )
 
